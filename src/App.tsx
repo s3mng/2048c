@@ -1,8 +1,7 @@
 import { useEffect, useState  } from 'react';
-import { getEmpty, moveMapIn2048Rule, spawnRandomTile } from './logic';
+import {  moveMapIn2048Rule, spawnRandomTile } from './logic';
 import type { Map2048 } from './logic';
 import './App.css';
-import { json } from 'stream/consumers';
 
 
 
