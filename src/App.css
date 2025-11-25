@@ -1,20 +1,18 @@
-
 .app-container {
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #18181b; 
+  background-color: #18181b;
 }
 
 .board {
   display: grid;
-  gap: 8px; 
-  background-color: #27272a; 
-  padding: 12px; 
+  gap: 8px;
+  background-color: #27272a;
+  padding: 12px;
   border-radius: 16px;
 }
-
 
 .cell {
   height: 80px;
@@ -25,23 +23,60 @@
   border-radius: 8px;
   background-color: #3f3f46;
   color: white;
-  font-size: 24px; 
+  font-size: 24px;
   font-weight: bold;
 }
 
 .message {
-    color:white;
+  color: white;
 }
 
-
-.cell-2 { background-color: #eee4da; color: #776e65; }
-.cell-4 { background-color: #ede0c8; color: #776e65; }
-.cell-8 { background-color: #f2b179; color: white; }
-.cell-16 { background-color: #f59563; color: white; }
-.cell-32 { background-color: #f67c5f; color: white; }
-.cell-64 { background-color: #f65e3b; color: white; }
-.cell-128 { background-color: #edcf72; color: #776e65; font-size: 20px; }
-.cell-256 { background-color: #edcc61; color: #776e65; font-size: 20px; }
-.cell-512 { background-color: #edc850; color: #776e65; font-size: 20px; }
-.cell-1024 { background-color: #edc53f; color: #776e65; font-size: 18px; }
-.cell-2048 { background-color: #edc22e; color: #776e65; font-size: 18px; }
+.cell-2 {
+  background-color: #eee4da;
+  color: #776e65;
+}
+.cell-4 {
+  background-color: #ede0c8;
+  color: #776e65;
+}
+.cell-8 {
+  background-color: #f2b179;
+  color: white;
+}
+.cell-16 {
+  background-color: #f59563;
+  color: white;
+}
+.cell-32 {
+  background-color: #f67c5f;
+  color: white;
+}
+.cell-64 {
+  background-color: #f65e3b;
+  color: white;
+}
+.cell-128 {
+  background-color: #edcf72;
+  color: #776e65;
+  font-size: 20px;
+}
+.cell-256 {
+  background-color: #edcc61;
+  color: #776e65;
+  font-size: 20px;
+}
+.cell-512 {
+  background-color: #edc850;
+  color: #776e65;
+  font-size: 20px;
+}
+.cell-1024 {
+  background-color: #edc53f;
+  color: #776e65;
+  font-size: 18px;
+}
+.cell-2048 {
+  background-color: #edc22e;
+  color: #776e65;
+  font-size: 18px;
+}
