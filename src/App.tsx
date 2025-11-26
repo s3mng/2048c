@@ -84,6 +84,8 @@ const App = () => {
 
   return (
     <div className="app-container">
+      <h1 style={{ color: 'white', marginBottom: '20px' }}>develop</h1>
+
       <div className="controls">
         <button onClick={undo} disabled={!previousBoard}>
           Undo
